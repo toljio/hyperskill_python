@@ -1,0 +1,15 @@
+<b>A group of students</b> <a class="right" href="https://hyperskill.org/learn/step/7798">Open on Hyperskill</a><br/><br/><html>
+ <head></head>
+ <body>
+  <p style="text-align: center;"></p>
+  <p>Alice studies at a university and recently she was appointed to be a curator for a group of freshmen. To simplify the process of working with students, Alice wants to have a list with their names and ages in sorted order. Help Alice to write a program that automates the creating of such a list.</p> 
+  <p><strong>Input:</strong> the first line contains an integer $n$ — the number of students. Each of the next $n$ lines contains a student's name and age separated by space.</p> 
+  <p><strong>Output:</strong> the list of students sorted in ascending order according to their age. If two students have the same age, sort them according to the lexicographical order of their names. Note that several students can have the same name.</p> 
+  <p>Modify the described quick sort algorithm to solve the problem. Use "<strong>the median of three</strong>" partition scheme. The median of three represents a different approach to the choice of the pivot element. The idea is to consider the first, the middle and the last element of a list and use the median of these elements as a pivot. This modification gives us $O(n \log n)$ time complexity for sorted lists.</p> 
+  <p><button class="btn-sm btn-outline-secondary" onclick="getElementById('hint-1249').style.display='inline'"> Hint </button> </p>
+  <div id="hint-1249" style="display:none;">
+   You can use quicksort to first sort the ages of the students and then sort their names.
+  </div>
+  <p></p>
+ </body>
+</html><br><b>Sample Input:</b><br>3<br>John 24<br>Ann 21<br>Andrew 24<br><b>Sample Output:</b><br>Ann<br>Andrew<br>John<br><br><br><b>Sample Input:</b><br>3<br>John 20<br>Alice 20<br>John 20<br><br><b>Sample Output:</b><br>Alice<br>John<br>John<br><br><br><font color="gray">Memory limit: 256 Mb</font><br><font color="gray">Time limit: 3s</font><br><br><br/><a href="https://hyperskill.org/learn/step/7792">Show topic summary</a>

@@ -1,0 +1,16 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    template = """
+    <html>
+      <ul>
+        ???
+      </ul>
+    </html>
+    """
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7645
+status: Solved
+record: -1

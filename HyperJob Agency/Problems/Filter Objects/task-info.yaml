@@ -1,0 +1,9 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: red_cars = ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7013
+status: Solved
+record: -1

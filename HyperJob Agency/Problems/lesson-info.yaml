@@ -1,0 +1,17 @@
+content:
+- Cipher
+- Filter Objects
+- Get an Object
+- Combine Conditions
+- Template With an Instance of a Model
+- Template With a Form
+- Unordered List
+- Custom Form
+- Get Cleaned Data
+- Add Custom Error
+- Create a Superuser
+- Create a Usual User
+- Signup View
+- Update Object in the Database
+- Create Object in the Database
+- Delete Objects from the Database

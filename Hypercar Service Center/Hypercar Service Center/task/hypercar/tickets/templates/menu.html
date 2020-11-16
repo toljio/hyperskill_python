@@ -1,0 +1,8 @@
+<h2> MENU </h2>
+<ul>
+  {% for option in my_menu %}
+  <li>
+    <a href="/get_ticket/{{ option.link }}">{{ option.desc }}</a>
+  </li>
+  {% endfor %}
+</ul>

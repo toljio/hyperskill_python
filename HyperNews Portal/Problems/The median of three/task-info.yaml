@@ -1,0 +1,29 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    def choose_median(start, middle, end):
+        # finish the method for finding the median
+
+
+    def partition(lst, pivot, start, end):
+        # add necessary modifications
+        # don't forget to print the result of the partition!
+        j = start
+
+        for i in range(start + 1, end + 1):
+            if lst[i] <= lst[start]:
+                j += 1
+                lst[i], lst[j] = lst[j], lst[i]
+
+        lst[start], lst[j] = lst[j], lst[start]
+        return j
+
+
+    # read the input list
+    # and call the methods
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7796
+status: Solved
+record: -1

@@ -1,0 +1,15 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    template = """
+    <form action="post">
+      <input type="hidden" name="drink_id" value=???>
+      <button type="submit">Order it!</button>
+    </form>
+    """
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7644
+status: Solved
+record: -1
